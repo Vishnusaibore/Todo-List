@@ -1,0 +1,13 @@
+<%- include("header"); -%>
+<div class="box" id="heading">
+<h2 >Create / Search Your Desired List Here...</h2>
+</div>
+
+<div class="box">
+<form class="item form-class" action="/mylist" method="post">
+    <label for="query">Type Here...</label>
+    <input type="text" name="query" placeholder="New/Existing List" autocomplete="off"/>
+    <button class="my-button" type="submit" name="">+</button>
+</form>
+</div>
+<%- include("footer"); -%>
